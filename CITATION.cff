@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "ESVCP: Entropy-Adaptive Multilayer LSB Embedding for Semantic Visual Cryptography"
+message: "If you use this software, please cite the accompanying article."
+type: software
+authors:
+  - given-names: John Blesswin
+    family-names: A
+    affiliation: "SRM Institute of Science and Technology, Kattankulathur, India"
+    email: johnb@srmist.edu.in
+  - given-names: Suresh
+    family-names: Sankaranarayanan
+    affiliation: "King Faisal University, Al Ahsa, Saudi Arabia"
+    email: ssuresh@kfu.edu.sa
+license: MIT
+repository-code: "https://github.com/johnblesswin/esvcp"
+version: "2.0.0"
+date-released: "2026-09-16"
