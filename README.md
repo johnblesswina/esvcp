@@ -1,5 +1,7 @@
 # ESVCP — Entropy-Adaptive Multilayer LSB Embedding for Semantic Visual Cryptography
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22799610.svg)](https://doi.org/10.5281/zenodo.22799610)
+
 Reference implementation and reproduction package for the manuscript
 *"Entropy-Adaptive Multilayer LSB Embedding for Semantic Visual Cryptography with
 Exact Payload Recovery."*
@@ -57,12 +59,17 @@ the four covers in `data/covers/` and will give different statistics.
 | `results/shares.csv` | Table 10, Section 6.4 |
 | `results/threshold_sweep.csv` | Section 7.6 |
 | `results/runtime.csv` | Table 13 |
+| `src/worked_example.py` | Section 4.2.3.1 worked example |
 
 Figures:
 
 ```bash
-python src/figure2.py     # architecture diagram
-python src/figure4.py     # visual quality panels
+python src/figure1.py          # overall architecture
+python src/figure2.py          # module operational flow
+python src/figure3.py          # experimental results panels
+python src/figure4.py          # visual quality panels
+python src/figure5.py          # bit-plane decomposition
+python src/worked_example.py   # the 4x4 example in Section 4.2.3.1
 ```
 
 ---
@@ -160,7 +167,7 @@ Full dataset: https://dde.binghamton.edu/download/ImageDB/BOSSbase_1.01.zip
 
 ## Citation
 
-See `CITATION.cff`. Archived at Zenodo: DOI [INSERT DOI]
+See `CITATION.cff`. Archived at Zenodo: [10.5281/zenodo.22799610](https://doi.org/10.5281/zenodo.22799610)
 
 ## License
 
